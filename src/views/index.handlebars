@@ -1,0 +1,24 @@
+<form class="card justify-content container mt-4 ">
+    <div class="row card-header">
+        <h1 class="card-title col-12">Subir imagen</h1>
+    </div>
+    <div class="card-body p-0">
+        <form action="/image" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <div class="custom-file rounded row p-2 m-3 mt-4" style="background-color: #efefef;">
+                    <label class="custom-file-label col-6" for="validatedImage">Elegir imagen...</label>
+                    <input type="file" class="custom-file-input col-6" name ="image" id="validatedImage" required>
+                </div>
+            </div>
+            <div class="form-group row m-3 mt-0">
+                <input type="text" class="form-control" placeholder="Elegir título" required/>
+            </div>
+            <div class="form-group m-3 mt-0">
+                <textarea class="form-control" name="description" rows="4" placeholder="Describe lo que te gusta de la imagen"></textarea>
+            </div>
+            <div class="form-group">
+                <button class="col-1 m-3 mt-0 btn btn-light" style="background-color: #efefef;">Subir</button>
+            </div>
+        </form>
+    </div>
+</form>

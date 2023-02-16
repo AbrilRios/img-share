@@ -1,0 +1,33 @@
+{
+  "name": "red-social-images",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "red",
+    "social",
+    "about",
+    "images",
+    "backend"
+  ],
+  "author": "Abril Ríos",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "errorhandler": "^1.5.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "fs-extra": "^11.1.0",
+    "md5": "^2.3.0",
+    "mongo": "^0.1.0",
+    "mongod": "^2.0.0",
+    "mongoose": "^6.9.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

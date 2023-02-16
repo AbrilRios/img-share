@@ -1,0 +1,20 @@
+Explicación de cada carpeta;
+
+Controllers: Son los bloques de código que su objetivo es realizar controladores como por ejemplo, manejo
+             de likes - manejo de comentarios, etc.
+
+Helpers: Bloques de código reutilizable en diferentes partes de una aplicación.
+
+Models: Bloques de código que permite crear los modelos de datos, modelo del usuario (contraseña, correo,
+        usuario, ...) - modelo de imagen (peso, formato de archivo, dimensiones, ...).
+
+Server: Bloques de código donde se configura toda la parte detrás del servidor por ejemplo, inicio del
+        server, direccionamientos, intercambios de datos, los métodos de HTTP, etc.
+
+Public: Todos los archivos que dará la vista del lado del cliente.
+
+Routes: Bloques de código que genera las diferentes rutas del sitio web.
+
+Views: Otorga tener las vistas de la pantalla del lado del cliente.
+        Layouts: Es donde se almacenara el HTML empero estas son plantillas completos.
+        Partials: También almacena HTML no obstante, son pequeñas piezas reutilizables en las diferentes rutas.
